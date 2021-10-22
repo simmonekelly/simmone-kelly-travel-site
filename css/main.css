@@ -1,0 +1,162 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #334476;
+}
+
+body {
+    margin: 0;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    color: #334476;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    padding: 0 50px;
+    width: calc(100% - 100px);
+}
+
+.primary-nav__logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.primary-nav__pages{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.primary-nav__logo-text {
+    color: #334476;
+    text-decoration: none;
+}
+
+.primary-nav__list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.primary-nav__list-item {
+    margin: 10px;
+}
+
+.primary-nav__list-link {
+    text-decoration: none;
+    color: #334476;
+}
+
+.active {
+    text-decoration: underline #DB7A4E;
+}
+
+.hero-section {
+    background-color: #FEFAF5;
+    padding-top: 118px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section__text {
+    margin: 0;
+}
+
+.hero-section__image {
+    margin: 0;
+
+}
+.hero-image {
+    width: 500px;
+}
+
+button {
+    background-color: #DB7A4E;
+    color: #fff;
+    border-style: none;
+    border-radius: 40px;
+    padding: 10px 40px;
+}
+
+.recommendation-section {
+    background-color: #fff;
+    padding: 50px;
+}
+
+.recommendation-section__cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.recommendation-section__cards {
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(0 0 0 / 20%);
+    box-shadow: 0 4px 4px rgb(0 0 0 / 20%);
+}
+
+.recommendation-titles {
+    color: #fff;
+    margin: 0;
+    text-align: right;
+}
+
+.hawaii {
+    background: url(../assets/Images/hawaii.jpg) center center / cover no-repeat;
+}
+
+.iceland {
+    background: url(../assets/Images/iceland.jpg ) center center / cover no-repeat;
+}
+
+.greece {
+    background: url(../assets/Images/greece.jpg) center center / cover no-repeat;
+}
+
+.recommendation-section__cards-link {
+    text-decoration: none;
+}
+
+.site-footer {
+    display: flex;
+    justify-content: center;
+    background-color: #FEFAF5;
+    color: #334476;
+    align-items: center;
+    padding: 0 50px;
+}
+.footer-section {
+    margin: 20px;
+}
+
+.footer-hours__container {
+    display: flex;
+}
+
+.footer-social__list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-social__list-item {
+    margin: 10px;
+}
+
+.footer-socail__list-link {
+    text-decoration: none;
+    color: #334476;
+}
