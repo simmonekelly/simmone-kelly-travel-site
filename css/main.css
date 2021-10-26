@@ -136,6 +136,8 @@ button {
     color: #334476;
     align-items: center;
     padding: 0 50px;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 .footer-section {
     margin: 20px;
@@ -159,4 +161,12 @@ button {
 .footer-socail__list-link {
     text-decoration: none;
     color: #334476;
+}
+
+.footer-hours__saturday {
+    padding: 0 20px;
+}
+
+.footer-subheader {
+   color: #DB7A4E;
 }

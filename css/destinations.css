@@ -1,0 +1,141 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #334476;
+}
+
+body {
+    margin: 0;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    color: #334476;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    padding: 0 50px;
+    width: calc(100% - 100px);
+}
+
+.primary-nav__logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.primary-nav__pages{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.primary-nav__logo-text {
+    color: #334476;
+    text-decoration: none;
+}
+
+.primary-nav__list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.primary-nav__list-item {
+    margin: 10px;
+}
+
+.primary-nav__list-link {
+    text-decoration: none;
+    color: #334476;
+}
+
+/* FIX THIS*/
+a:active {
+    text-decoration: underline #DB7A4E;
+}
+
+.main-section__iceland {
+    padding-top: 98px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    height: 80vh;
+}
+
+.main-section__hawaii {
+    background: url(../assets/Images/hawaii.jpg) center center / cover no-repeat;
+    padding-top: 98px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    height: 80vh;
+}
+
+.main-section__iceland {
+    background: url(../assets/Images/iceland.jpg) center center / cover no-repeat;
+    padding-top: 98px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    height: 80vh;
+}
+
+.main-section__greece {
+    background: url(../assets/Images/greece.jpg) center center / cover no-repeat;
+    padding-top: 98px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    height: 80vh;
+}
+
+.page-header {
+    color: #fff;
+}
+
+.itinerary-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.itinerary-sections {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    padding: 20px 20px 60px;
+    color: #000;
+    
+}
+
+.itinerary-sections__header {
+    border-bottom: solid 2px;   
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.itinerary-sections__list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.itinerary-sections__list-item {
+    background-color: #FEFAF5;
+    padding: 10px 0;
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
