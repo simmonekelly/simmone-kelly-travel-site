@@ -1,61 +1,3 @@
-html {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #334476;
-}
-
-body {
-    margin: 0;
-}
-
-.site-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: #fff;
-    color: #334476;
-    position: fixed;
-    top: 0;
-    left: 0;
-    align-items: center;
-    padding: 0 50px;
-    width: calc(100% - 100px);
-}
-
-.primary-nav__logo {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.primary-nav__pages{
-    display: flex;
-    justify-content: flex-end;
-}
-
-.primary-nav__logo-text {
-    color: #334476;
-    text-decoration: none;
-}
-
-.primary-nav__list {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.primary-nav__list-item {
-    margin: 10px;
-}
-
-.primary-nav__list-link {
-    text-decoration: none;
-    color: #334476;
-}
-
-/* FIX THIS*/
-a:active {
-    text-decoration: underline #DB7A4E;
-}
-
 .main-section__iceland {
     padding-top: 98px;
     padding-left: 50px;
@@ -139,3 +81,52 @@ a:active {
     display: flex;
     justify-content: center;
 }
+
+/*
+All pages must match the mock ups as closely as possible, being mindful of image distortion and proportions.
+
+The site must use the assets provided.
+
+Each page must have an identical navbar with the following style:
+
+The Navigation Bar must be fixed to the top of the page
+The background color must be #FFFFFF
+The site logo/wordmark color must be #335576
+The currently active page must be underlined using the color #DB7A4E
+Each page must have an identical footer with the following style:
+
+The background color must be #FEFAF5
+The footer titles and text must be the color #335576
+The footer subtitles must be the color #DB7A4E
+The base font for the site must be Verdana.
+
+Home Page - Hero Section:
+
+The hero background color must be #FEFAF5
+The text content must be left aligned
+The slogan color must be #335576
+The ‘Get Started’ Button background color must be #DB7A4E
+Home Page - Recommendations Section:
+
+The recommendations title must have the color of #335576
+There will be 3 Cards, one for each destination (Iceland, Greece, Hawaii)
+The destination name must be in the bottom right corner of the card
+The border radius of the cards must be 5px
+The border of the cards must be 1px solid black with an opacity of 20%
+The box shadow of the cards must be:
+Horizontal Offset: 0px
+Vertical Offset: 4px
+Blur: 4px
+Color: Black, with an opacity of 20%
+Destination Pages:
+
+They must have a title with the destination name
+The provided image asset for the destination must take up the full width/height of the background for the page.
+They must have 3 Days of Itinerary activities including:
+A title for the day of the week
+4 Itinerary activities (e.g. Breakfast, Lunch, Dinner, Snorkeling)
+Activities must have a background of #FEFAF5
+
+
+
+*/
