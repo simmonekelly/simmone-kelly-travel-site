@@ -1,10 +1,5 @@
 $primary-color: #334476;
 $secondary-color: #DB7A4E;
-$large-fs: 40px;
-$medium-fs: 33px;
-$small-fs: 10px;
-$standard-fs: 18px;
-
 
 
 html {
@@ -17,19 +12,24 @@ body {
 }
 
 p {
-    font-size: $standard-fs;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
 }
 
 h1 {
-    font-size: $large-fs;
+    font-size: 40px;
+    margin: 0;
 }
 
 h2 {
-    font-size: $medium-fs;
+    font-size: 25px;
+    margin: 0;
 }
 
 h3 {
-    font-size: $small-fs;
+    font-size: 10px;
+    font-weight: normal;
 }
 
 .primary-nav {
@@ -41,8 +41,8 @@ h3 {
     top: 0;
     left: 0;
     align-items: center;
-    padding: 0 50px;
-    width: calc(100% - 100px);
+    padding: 10px 110px;
+    width: calc(100% - 220px);
 
     &__logo {
         display: flex;
@@ -72,12 +72,13 @@ h3 {
 
     &__list-link {
         text-decoration: none;
-        color: $primary-color;
+        color: #000;
     }
-    /* FIX THIS*/
-    &__list-link:active {
-        text-decoration: underline #DB7A4E;
-    }
+}
+
+.active {
+    border-bottom: solid #DB7A4E;
+    padding-bottom: 10px;
 }
 
 .site-footer {
@@ -85,13 +86,17 @@ h3 {
     justify-content: center;
     background-color: #FEFAF5;
     color: #334476;
-    align-items: center;
-    padding: 0 50px;
+    padding: 20px 110px;
     flex-wrap: wrap;
     align-items: flex-start;
 }
 .footer-section {
     margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 91px;
 
     &__hours-container {
         display: flex;
@@ -106,18 +111,21 @@ h3 {
         color: $secondary-color;
      }
     
-    &__content {
-
-    }
-    &__-link {
+    &__link {
         text-decoration: none;
         color: $primary-color;
+    }
+
+    &__header {
+        padding-bottom: 10px;
     }
 }
 
 .footer-icon {
-    height: 30px;
-    padding-right: 20px;
+    height: 20px;
+    padding-right: 30px;
+    padding-top: 20px;
+    color: $primary-color;
 }
 
 

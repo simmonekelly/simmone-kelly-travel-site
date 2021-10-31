@@ -1,46 +1,52 @@
-.main-section__iceland {
-    padding-top: 98px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    height: 80vh;
-}
 
 .main-section__hawaii {
     background: url(../assets/Images/hawaii.jpg) center center / cover no-repeat;
-    padding-top: 98px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 59px;
+    padding-left: 110px;
+    padding-right: 110px;
     padding-bottom: 50px;
-    height: 80vh;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main-section__iceland {
     background: url(../assets/Images/iceland.jpg) center center / cover no-repeat;
-    padding-top: 98px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 59px;
+    padding-left: 110px;
+    padding-right: 110px;
     padding-bottom: 50px;
-    height: 80vh;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main-section__greece {
     background: url(../assets/Images/greece.jpg) center center / cover no-repeat;
-    padding-top: 98px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 59px;
+    padding-left: 110px;
+    padding-right: 110px;
     padding-bottom: 50px;
-    height: 80vh;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .page-header {
     color: #fff;
+    font-size: 80px;
+    margin: 40px 0;
+    align-self: flex-start;
 }
 
 .itinerary-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    width: 800px;
 }
 
 .itinerary-sections {
@@ -48,9 +54,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 250px;
+    width: 200px;
     padding: 20px 20px 60px;
     color: #000;
+    border-radius: 5px;
     
 }
 
@@ -61,6 +68,8 @@
     margin: 0px;
     margin-bottom: 20px;
     width: 100%;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .itinerary-sections__list {
@@ -81,52 +90,3 @@
     display: flex;
     justify-content: center;
 }
-
-/*
-All pages must match the mock ups as closely as possible, being mindful of image distortion and proportions.
-
-The site must use the assets provided.
-
-Each page must have an identical navbar with the following style:
-
-The Navigation Bar must be fixed to the top of the page
-The background color must be #FFFFFF
-The site logo/wordmark color must be #335576
-The currently active page must be underlined using the color #DB7A4E
-Each page must have an identical footer with the following style:
-
-The background color must be #FEFAF5
-The footer titles and text must be the color #335576
-The footer subtitles must be the color #DB7A4E
-The base font for the site must be Verdana.
-
-Home Page - Hero Section:
-
-The hero background color must be #FEFAF5
-The text content must be left aligned
-The slogan color must be #335576
-The ‘Get Started’ Button background color must be #DB7A4E
-Home Page - Recommendations Section:
-
-The recommendations title must have the color of #335576
-There will be 3 Cards, one for each destination (Iceland, Greece, Hawaii)
-The destination name must be in the bottom right corner of the card
-The border radius of the cards must be 5px
-The border of the cards must be 1px solid black with an opacity of 20%
-The box shadow of the cards must be:
-Horizontal Offset: 0px
-Vertical Offset: 4px
-Blur: 4px
-Color: Black, with an opacity of 20%
-Destination Pages:
-
-They must have a title with the destination name
-The provided image asset for the destination must take up the full width/height of the background for the page.
-They must have 3 Days of Itinerary activities including:
-A title for the day of the week
-4 Itinerary activities (e.g. Breakfast, Lunch, Dinner, Snorkeling)
-Activities must have a background of #FEFAF5
-
-
-
-*/
