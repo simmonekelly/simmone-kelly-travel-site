@@ -81,13 +81,17 @@ h3 {
   align-items: flex-start;
 }
 
+.site-footer_container{
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+}
+
 .footer-section {
-  margin: 20px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
-  height: 91px;
 }
 .footer-section__hours-container {
   display: flex;
